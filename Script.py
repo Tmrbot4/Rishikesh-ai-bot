@@ -1,16 +1,16 @@
 class script(object):
     START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
     
-ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
+ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️ \n\n<b><blockquote>🌿 ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Vishalku25">Vɪsʜᴀʟ Kᴜᴍᴀʀ</a></blockquote></b></b>"""
 
     MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: RK Bots
-★ Username: @Rk_botowner
-★ Update Channel : @Rkbotz"""
+    MY_OWNER_TXT = """★ Name: TMR Botz
+★ Username: @TMR_DEVELOPER
+★ Update Channel : @TMR_update_channel"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
@@ -77,17 +77,17 @@ I can't find the <b>{}</b> in my database! 🥲
 
 📝 ɴᴏᴛᴇ:- ʏᴏᴜ sʜᴏᴜʟᴅ ɴᴏᴛ ʙᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ. sᴇɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ ᴀɴᴏɴʏᴍᴜs ᴀᴅᴍɪɴ.</b>"""
 
-    IMDB_TEMPLATE = """✅ I Found: <code>{query}</code>
+    IMDB_TEMPLATE = """<b>✅ I Found: <code>{query}</code>
 
-🏷 Title: <a href={url}>{title}</a>
+<b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating} / 10</a>
-☀️ Languages: {languages}
+🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+☀️ Languages : <code>{languages}</code>
 📀 RunTime: {runtime} Minutes
 
 🗣 Requested by: {message.from_user.mention}
-©️ Powered by: <b>{message.chat.title}</b>"""
+©️ Powered by: {message.chat.title}</b>"""
 
     FILE_CAPTION = """<i>{file_name}</i>
 
@@ -136,8 +136,8 @@ I can't find the <b>{}</b> in my database! 🥲
 
     SOURCE_TXT = """<b>ʙᴏᴛ ɢɪᴛʜᴜʙ ʀᴇᴘᴏsɪᴛᴏʀʏ -
 
-- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
+- Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴀ ʙᴏᴛ ʟɪᴋᴇ ᴛʜɪs ᴍᴀᴅᴇ ᴛʜᴇɴ DM ᴍᴇ.
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/Rishikesh-Sharma09/Auto-Filter-Bot>ʜᴇʀᴇ</a>
+- DM ᴍᴇ - <a href=https://t.me/TMR_DEVELOPER>ʜᴇʀᴇ</a>
 
-- ᴅᴇᴠʟᴏᴘᴇʀ - @Rkbotz"""
+- ᴅᴇᴠʟᴏᴘᴇʀ - @Vishalku25"""
