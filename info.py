@@ -48,7 +48,7 @@ else:
 INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1002065082779').split()]
 if len(INDEX_CHANNELS) == 0:
     print('Info - INDEX_CHANNELS is empty')
-AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '-1002222823786').split()]
+AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '-1001868502293').split()]
 if len(AUTH_CHANNEL) == 0:
     print('Info - AUTH_CHANNEL is empty')
 LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002226563795') #bot log channel -1005293546253
@@ -76,11 +76,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rkbotzsupport')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Rkbotz')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/RkMovie_group')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkbotz")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Rkbotz")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/TMR_movie_request_group')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/TMR_update_channel')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/the_movie_rock')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/TMR_how_to_downlod/2")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/TMR_how_to_downlod/2")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
@@ -89,8 +89,8 @@ MAX_BTN = int(environ.get('MAX_BTN', 10)) #don't change anything in Language
 LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'english hindi telugu tamil kannada malayalam').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "onepagelink.in")
-SHORTLINK_API = environ.get("SHORTLINK_API", "f646357aa129cfbd7eb59bcba428096ab54ca950")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "Ziplinker.net")
+SHORTLINK_API = environ.get("SHORTLINK_API", "8e869e3bd0f04a3dd1282d4e0a7bb52224a3a576")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
@@ -102,7 +102,7 @@ STICKERS_IDS = (
 GROUP_FSUB = is_enabled('GROUP_FSUB', False) 
 PM_SEARCH = is_enabled('PM_SEARCH', True) #switch True or False for searching results in bot pm😃
 IS_VERIFY = is_enabled('IS_VERIFY', False)
-AUTO_DELETE = is_enabled('AUTO_DELETE', False)
+AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 WELCOME = is_enabled('WELCOME', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
@@ -110,11 +110,11 @@ LINK_MODE = is_enabled("LINK_MODE", True)
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IMDB = is_enabled('IMDB', True)
 SPELL_CHECK = is_enabled("SPELL_CHECK", True)
-SHORTLINK = is_enabled('SHORTLINK', False)
+SHORTLINK = is_enabled('SHORTLINK', True)
 
 
-PAYMENT_QR = environ.get('PAYMENT_QR', 'http://graph.org/file/cacbbea472e5a48ce0d64.jpg') #telegraph link of your QR code 
-UPI_ID = environ.get('UPI_ID', 'Rishikesh-sharma09@axl') # Add your upi id here
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/e6b39d0544337ec05c670.jpg') #telegraph link of your QR code 
+UPI_ID = environ.get('UPI_ID', 'vishal.kumar@upi') # Add your upi id here
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True) #true if you want stream feature active in your bot
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002226563795") #if is_stream = true then add a channel id ex: -10026393639
@@ -123,7 +123,7 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://rishikesh-ai-bot.onrender.com/") #if heroku then paste the app link here ex: https://heroku......./
+URL = environ.get("URL", "https://successive-oralla-pushpa13-801e425d.koyeb.app/") #if heroku then paste the app link here ex: https://heroku......./
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
