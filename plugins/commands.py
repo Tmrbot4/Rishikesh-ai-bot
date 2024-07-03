@@ -570,7 +570,7 @@ async def remove_premium_cmd_handler(client, message):
             await message.reply_text("Premium access removed to the user.")
             await client.send_message(
                 chat_id=user_id,
-                text=f"<b>premium removed by admins \n\n Contact Admin if this is mistake \n\n 👮 Admin : @Rk_botowner \n</b>",                
+                text=f"<b>premium removed by admins \n\n Contact Admin if this is mistake \n\n 👮 Admin : @TMR_DEVELOPER \n</b>",                
             )
         else:
             await message.reply_text("Invalid time format.'")
@@ -580,13 +580,13 @@ async def remove_premium_cmd_handler(client, message):
 @Client.on_message(filters.command("plans"))
 async def plans_cmd_handler(client, message):                
     btn = [            
-        [InlineKeyboardButton("ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ʀᴇᴄᴇɪᴘᴛ 🧾", url="t.me/Rk_botowner")],
+        [InlineKeyboardButton("ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ʀᴇᴄᴇɪᴘᴛ 🧾", url="t.me/TMR_DEVELOPER")],
         [InlineKeyboardButton("⚠️ ᴄʟᴏsᴇ / ᴅᴇʟᴇᴛᴇ ⚠️", callback_data="close_data")]
     ]
     reply_markup = InlineKeyboardMarkup(btn)
     await message.reply_photo(
         photo=PAYMENT_QR,
-        caption="**Pʀᴇᴍɪᴜᴍ Fᴇᴀᴛᴜʀᴇs 🎁\n\n☆ No Need To Verify\n☆ Ad Free Experience\n☆ Unlimited Movie And Series",
+        caption="**⚡️Buy Premium Now\n\n ╭━━━━━━━━╮\n    Premium Plans\n  • ₹10 - 1 day (Trial)\n  • ₹25 - 1 Week (Trial)\n  • ₹50 - 1 Month\n  • ₹120 - 3 Months\n  • ₹220 - 6 Months\n  • ₹400 - 1 Year\n╰━━━━━━━━╯\n\nPremium Features ♤ᵀ&ᶜ\n\n☆ New/Old Movies and Series\n☆ High Quality available\n☆ Get Files Directly \n☆ High speed Download links\n☆ Full Admin support \n☆ Request will be completed in 1 hour if available.\n\n**",
         reply_markup=reply_markup
     )
         
