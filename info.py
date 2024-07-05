@@ -123,7 +123,7 @@ if len(BIN_CHANNEL) == 0:
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://successive-oralla-pushpa13-801e425d.koyeb.app/") #if heroku then paste the app link here ex: https://heroku......./
+URL = environ.get("URL", "https://proposed-tawnya-monster258-ccd6640b.koyeb.app/") #if heroku then paste the app link here ex: https://heroku......./
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
